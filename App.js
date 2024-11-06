@@ -7,7 +7,7 @@ import AuthNavigator from './src/navigation/AuthNavigator';
 import AppNavigator from './src/navigation/AppNavigator';
 
 const App = () => {
-  const isLoggedIn = false; // Use state or context to determine if the user is logged in
+  const isLoggedIn = true; // Use state or context to determine if the user is logged in
 
   return (
     <SafeAreaProvider>
